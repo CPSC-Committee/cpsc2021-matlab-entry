@@ -17,6 +17,12 @@ where 'sample_name' is the path to store the sample name and the sample name (RE
 ## How do I run my code and save my results?
 Please write your developed algorithm code into the challenge.m. The participants should save their results as '.mat' files by record. The variable name is specified as 'predict_endpoints'.
 
+After obtaining the test results, you can evaluate the scores of your method using the [CPSC2021 score code](https://github.com/CPSC-Committee/cpsc2021-python-entry) by running
+
+    python score_2021.py <data_path> <result_save_path>
+
+where '<data_path>' is the folder path of the test set, '<result_save_path>' is the folder path of your detection results.
+
 ## Useful links
 
 - [Python example code for The China Physiological Signal Challenge (CPSC2021)](https://github.com/CPSC-Committee/cpsc2021-python-entry)
