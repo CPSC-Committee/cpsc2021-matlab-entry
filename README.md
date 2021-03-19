@@ -15,7 +15,7 @@ You can run this sample entry code by starting MATLAB and running
 where 'sample_name' is the path to store the sample name and the sample name (RECORDS), 'sample_path' is the relative path where the recording is stored and refer to wfdb toolbox, 'save_path' is the path where the results are stored.
 
 ## How do I run my code and save my results?
-Please write your developed algorithm code into the challenge.m. You should save their results as '.mat' files by record. The variable name is specified as 'predict_endpoints'.
+Please write your developed algorithm code into the challenge.m. You should save their results as '.mat' files by record. The variable name is specified as 'predict_endpoints' and the name of the result file should be the same as the corresponding record file.
 
 After obtaining the test results, you can evaluate the scores of your method using the [CPSC2021 score code](https://github.com/CPSC-Committee/cpsc2021-python-entry) by running
 
